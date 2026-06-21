@@ -1,0 +1,12 @@
+{
+  "required_headers": {
+    "X-Frame-Options": "DENY|SAMEORIGIN",
+    "Content-Security-Policy": ".*",
+    "Strict-Transport-Security": "max-age=\d+",
+    "X-Content-Type-Options": "nosniff"
+  },
+  "warnings": {
+    "Server": "Devem ser suprimidos para deter fingerprinting",
+    "X-Powered-By": "Remover de produção por ofuscação"
+  }
+}
